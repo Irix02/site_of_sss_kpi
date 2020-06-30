@@ -79,7 +79,11 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
 <body  bgcolor="#ffffff "></body>
   <head>
   	<title>Студентська Соціальна Служба КПІ</title>
-	  <style type="text/css">
+
+    <style type="text/css">
+      p {
+  display: inline-block;
+}
    div { 
     width: 100%; /* Ширина */
     background: #ffffff; /* Цвет фона */
@@ -136,15 +140,17 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   	</h4>
   </div>
 
+
 <style>
       .fig {
     text-align: center; 
            }
-           .round {
-    border-radius: 95px; /* Радиус скругления */
-    border: 3px solid pink; /* Параметры рамки */
+           .round 
+           {
+    border-radius: 100px; /* Радиус скругления */
+    border: 1px solid pink; /* Параметры рамки */
     box-shadow: 0 0 9px #666; /* Параметры тени */
-   }
+           }
     </style>
   <body class="fig" bgcolor="#FFF5EE" style ="align-items: center; ">
     <meta charset="utf-8">
@@ -170,4 +176,3 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   		
   
 </html> 
-    
