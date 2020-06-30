@@ -130,11 +130,17 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
       .fig {
     text-align: center; 
            }
+           .round {
+    border-radius: 95px; /* Радиус скругления */
+    border: 3px solid pink; /* Параметры рамки */
+    box-shadow: 0 0 9px #666; /* Параметры тени */
+   }
     </style>
-  <body class="fig" bgcolor="#FFF5EE" style ="align-items: center;">
+  <body class="fig" bgcolor="#FFF5EE" style ="align-items: center; ">
     <meta charset="utf-8">
+
     
-    <img  id="ssimg"   data-type="image" itemprop="image" style="object-position:50% 50%;width:155px;height:156px;object-fit:cover"  src="https://kpi.ua/files/styles/medium/public/images-page/sss_0.jpg?itok=QxyrnHOy" alt="Емблема студенческой социальной службы КПИ">
+    <img   id="ssimg"   data-type="image" itemprop="image" style="object-position:50% 50%;width:155px;height:156px;object-fit:cover"  src="https://kpi.ua/files/styles/medium/public/images-page/sss_0.jpg?itok=QxyrnHOy" alt="Емблема студенческой социальной службы КПИ" class="round">
   </body>
 
   <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 10px; pointer-events: none;"data-min-height="10"class="txtNew" id="vidkpi"> 
