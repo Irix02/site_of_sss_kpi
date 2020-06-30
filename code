@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript"></script>
+<script>
+	window.messageBuffer = [];
+	window.messageHandler = function(event)
+	 {
+		messageBuffer.push(event)
+	 };
+	window.addEventListener('message', window.messageHandler, false);
+</script>
+<script id="sentry">
+	(function(c,t,u,n,p,l,y,z,v)
+	{
+		function e(b)
+		{
+			if(!w)
+			{
+				w=!0;
+				var d=t.getElementsByTagName(u)[0],a=t.createElement(u);
+				a.src=z;
+				a.crossorigin="anonymous";
+				a.addEventListener("load",function()
+				{
+					try{c[n]=q;
+					c[p]=r;
+					var a=c[l],d=a.init;
+					a.init=function(a)
+					{for(var b in a)Object.prototype.hasOwnProperty.call(a,b)&&(v[b]=a[b]);d(v)};B(b,a)}
+					catch(A)
+					{
+						console.error(A)
+					}
+				    });
+				 d.parentNode.insertBefore(a,d)
+			    }
+			}
+				function B(b,d)
+				{
+					try{
+						for(var a=0;a<b.length;a++)if("function"===typeof b[a])b[a]();
+							var f=m.data,g=!1,h=!1;for(a=0;
+								a<f.length;a++)if(f[a].f)
+						{
+								h=!0;
+            var e=f[a];
+            !1===g&&"init"!==e.f&&d.init();
+            g=!0;d[e.f].apply(d,e.a)
+        }
+        !1===h&&d.init();
+        var k=c[n],l=c[p];
+        for(a=0;a<f.length;a++)f[a].e&&k?k.apply(c,f[a].e):f[a].p&&l&&l.apply(c,[f[a].p])
+    }
+catch(C)
+{
+	console.error(C)
+}
+}
+for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].src.indexOf(y))
+	{
+		g="no"!==document.scripts[k].getAttribute("data-lazy");break}var w=!1,h=[],m=function(b){(b.e||b.p||b.f&&-1<b.f.indexOf("capture")||b.f&&-1<b.f.indexOf("showReportDialog"))&&g&&e(h);m.data.push(b)
+	};
+            m.data=[];
+            c[l]={onLoad:function(b){h.push(b);
+            	g&&!x||e(h)},forceLoad:function(){x=!0;
+            		g&&setTimeout(function(){e(h)})}};
+            		"init addBreadcrumb captureMessage captureException captureEvent configureScope withScope showReportDialog".split(" ").forEach(function(b)
+            			{
+            				c[l][b]=function(){m({f:b,a:arguments})}});
+            		var q=c[n];
+            		c[n]=function(b,d,a,f,e){m({e:[].slice.call(arguments)});
+            		q&&q.apply(c,arguments)};
+            		var r=c[p];c[p]=function(b){m({p:b.reason});
+            		r&&r.apply(c,arguments)};
+            		g||setTimeout(function(){e(h)})})(window,document,
+            "script","onerror","onunhandledrejection","Sentry","8b4e078a51d04e0e9efdf470027f0ec1","https://browser.sentry-cdn.com/4.6.2/bundle.min.js",{"dsn":"https://8b4e078a51d04e0e9efdf470027f0ec1@sentry.wixpress.com/3"});
+	
+</script>
+<body  bgcolor="#FFF5EE"></body>
+  <head>
+  	<title>Студентська Соціальна Служба КПІ</title>
+    <meta charset="utf-8">
+  </head>
+  <bodyclass data-js-loaded="true"  
+    bgcolor="#FFF5EE">
+    <div id="SITE_CONTAINER">
+    <style type="text/css" data-styleid="theme_fonts">
+.font_0 {font: normal normal normal 52px/1.4em poppins-semibold,poppins,sans-serif ;color:#EF5453;} 
+.font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#888886;} 
+.font_2 {font: normal normal normal 26px/1.4em poppins-semibold,poppins,sans-serif ;color:#000000;} 
+.font_3 {font: normal normal bold 30px/1.4em poppins-semibold,poppins,sans-serif ;color:#000000;} 
+.font_4 {font: normal normal normal 50px/1.4em futura-lt-w01-book,sans-serif ;color:#000000;} 
+.font_5 {font: normal normal normal 23px/1.4em poppins-semibold,poppins,sans-serif ;color:#000000;} 
+.font_6 {font: normal normal normal 37px/1.4em futura-lt-w01-book,sans-serif ;color:#000000;} 
+.font_7 {font: normal normal normal 30px/1.4em futura-lt-w01-book,sans-serif ;color:#000000;} 
+.font_8 {font: normal normal normal 16px/1.4em futura-lt-w01-book,sans-serif ;color:#000000;} 
+.font_9 {font: normal normal normal 15px/1.4em futura-lt-w01-book,sans-serif ;color:#000000;} 
+.font_10 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#888886;} 
+
+    </style>
+   </div>
+ 
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+ </link>
+  <header data-is-absolute-layout="false" data-is-mobile="false" data-state="transition-allowed" data-site-widht="980" data-header-top="0" data-style="position:relative;margin-top:0;left:0;margin-left:0;width:100%;min-width:980px;top:;bottom:;right:" class="style-k8wt3n6u" id= "SITE_HEADER">
+  	<div style="left:0;width:100%" id= "SITE_HEADERscreenWidthBackground" class="style-k8wt3n6uscreenWidthBackground"></div>
+  	<div id="SITE_HEADERcenterContent" class="style-k8wt3n6ucenteredContent"></div>
+  		
+
+  
+  <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 50px; pointer-events: none;"data-min-height="30"class="txtNew" id="studsicslujb"> 
+  	<h4 class="font_4" style ="text-align: center;">
+  		<span style="color:#ff4040;">
+  			<span style="font-family:playfair display,serif;">
+  				<span style="letter-spacing:0.05em";>
+  					Студентська
+  					<br>
+  					
+  					соціальна
+  					<br>
+  					
+  					служба
+  				</span>
+  			</span>
+  		</span>
+  	</h4>
+  </div>
+
+<style>
+      .fig {
+    text-align: center; 
+           }
+    </style>
+  <body class="fig" bgcolor="#FFF5EE" style ="align-items: center;">
+    <meta charset="utf-8">
+    
+    <img  id="ssimg"   data-type="image" itemprop="image" style="object-position:50% 50%;width:155px;height:156px;object-fit:cover"  src="https://kpi.ua/files/styles/medium/public/images-page/sss_0.jpg?itok=QxyrnHOy" alt="Емблема студенческой социальной службы КПИ">
+  </body>
+
+  <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 10px; pointer-events: none;"data-min-height="10"class="txtNew" id="vidkpi"> 
+    <h1  class="font_1" style ="text-align: center;">
+    <span style="color:#800000;">
+      <span style="font-family:playfair display,serif;">
+  
+      від КПІ ім. Ігоря Сікорського
+
+      </span>
+    </hr>
+    </h1> 
+
+</div>
+    <hr color="red" >
+     </body>
+  		
+  
+</html> 
+<!--style="width: 100px; height: 100px;top: 0; left: 0"-->
+    
+    
