@@ -76,13 +76,13 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
             "script","onerror","onunhandledrejection","Sentry","8b4e078a51d04e0e9efdf470027f0ec1","https://browser.sentry-cdn.com/4.6.2/bundle.min.js",{"dsn":"https://8b4e078a51d04e0e9efdf470027f0ec1@sentry.wixpress.com/3"});
 	
 </script>
-<body  bgcolor="#FFF5EE"></body>
+<body  bgcolor="#ffffff "></body>
   <head>
   	<title>Студентська Соціальна Служба КПІ</title>
     <meta charset="utf-8">
   </head>
   <bodyclass data-js-loaded="true"  
-    bgcolor="#FFF5EE">
+    bgcolor="#ffffff ">
     <div id="SITE_CONTAINER">
     <style type="text/css" data-styleid="theme_fonts">
 .font_0 {font: normal normal normal 52px/1.4em poppins-semibold,poppins,sans-serif ;color:#EF5453;} 
@@ -154,6 +154,4 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   		
   
 </html> 
-<!--style="width: 100px; height: 100px;top: 0; left: 0"-->
-    
     
