@@ -79,6 +79,16 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
 <body  bgcolor="#ffffff "></body>
   <head>
   	<title>Студентська Соціальна Служба КПІ</title>
+	  <style type="text/css">
+   div { 
+    width: 100%; /* Ширина */
+    background: #ffffff; /* Цвет фона */
+    padding: 0px; /* Поля */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+   }
+  </style>
     <meta charset="utf-8">
   </head>
   <bodyclass data-js-loaded="true"  
