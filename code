@@ -330,16 +330,124 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   <body @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);  >
   <nav class="top-menu">
   <ul class="menu-main">
-    <li><a href="" class="current">Новини</a></li>
-    <li><a href="">Корисна інформація</a></li>
-    <li><a href="">Потрібно знати</a></li>
-    <li><a href="">Проекти</a></li>
-    <li><a href="">Цікаві місця</a></li>
+    <li><a href="http://sss.kpi.ua/category/news" class="current">Новини</a></li>
+    <li><a href="http://sss.kpi.ua/category/korisna-informaciya">Корисна інформація</a></li>
+    <li><a href="http://sss.kpi.ua/category/potribno-znati">Потрібно знати</a></li>
+    <li><a href="http://sss.kpi.ua/category/proekti">Проекти</a></li>
+    <li><a href="http://sss.kpi.ua/category/de-cikavo-provesti-vixidni">Цікаві місця</a></li>
   </ul>
 </nav>
 </nav>
 </body>
+<style>
+  * {
+  margin: 0;
+  box-sizing: border-box;
+}
+.post-wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.post-item {
+  padding: 10px;  
+}
+.post-item-wrap {
+  background: #F7F7F2;
+  position: relative;  
+}
+.post-item-wrap:after {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    height: 100%;
+  z-index: -1;
+  background: #FF0000;
+  transform: rotate(1deg);
+  transform-origin: left bottom;
+    transition: .3s ease-in-out;  
+}
+.post-item-wrap:hover:after {
+    top: 5px;
+    left: 5px;
+  transform: rotate(2deg);
+}  
+.post-link {
+  text-decoration: none;
+  display: block;
+  padding: 30px; 
+}
+.post-title {
+  color: #33261D;
+  margin-bottom: 15px;
+  transition: .3s ease-in-out;
+}
+.post-item-wrap:hover .post-title {
+  color: #FF0000;
+}
+.post-content {
+  color: #A69888;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .post-item {
+    flex-basis: 50%;
+    flex-shrink: 0;       
+  }
+}
+@media (min-width: 960px) {
+  .post-item {
+    flex-basis: 33.333333333%;      
+  }
+}
+</style>
+<div class="post-wrap">
+  <div class="post-item">
+    <div class="post-item-wrap">
+      <a href="http://sss.kpi.ua/news/pro-grip-grvi-ta-koronavirus.html " class="post-link">
+        <h3 class="post-title" >Про ГРИП, ГРВІ та Коронавірус</h3>
+        <p class="post-content">В умовах масової істерії щодо коронавірусу все більшого занепокоєння серед людей викликають будь-які прояви хворобливості. Найменший «чих» сприймається не інакше як загроза
+COVID-19. У цих умовах наша команда вирішила допомогти вам розібратися в особливостях симптоматики сезонних хвороб та коронавірусу.</p>
+      </a>      
+    </div>
+  </div>
+  
+  <div class="post-item" >
+    <div class="post-item-wrap">
+      <a href=" http://sss.kpi.ua/news/%f0%9f%90%a3-studentska-socialna-sluzhba-zavzhdi-vidkrita-dlya-novix-volonteriv.html" class="post-link" >
+        <h3 class="post-title" >Студентська соціальна служба завжди відкрита для нових волонтерів!!!</h3>
+        <p class="post-content">Якщо ти шукаєш друзів, можливості робити добрі справи та маєш ідеї як покращити КПІшку, тоді реєструйся!
 
+Ми чекаємо на тебе😉</p>
+      </a>      
+    </div>
+  </div>
+  
+  <div class="post-item">
+    <div class="post-item-wrap">
+      <a href="http://sss.kpi.ua/news/trening-po-zapobigannyu-emocijnomu-vigorannyu.html" class="post-link">
+        <h3 class="post-title" >Тренінг по запобіганню емоційному вигоранню</h3>
+        <p class="post-content">Втома,
+апатія, відсутність мотивації та проблеми зі сном. Знайома картина?
+
+Якщо хочеш
+зрозуміти причини емоційного вигорання та як з ним боротися, то чекаємо:
+
+🗓
+20.12 (пт)
+
+⏳ 16:00
+
+🏕
+приміщення відділу соціально-психологічної роботи – Студентської соціальної служби Департаменту навчально-виховної роботи (20 гуртожиток, окремий вхід зліва)</p>
+      </a>      
+    </div>
+  </div>  
+</div>
 
     <!--  <body> 
   <form>
@@ -361,3 +469,6 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   		
   
 </html> 
+
+    
+    
