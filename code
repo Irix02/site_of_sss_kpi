@@ -9,74 +9,8 @@
 	 };
 	window.addEventListener('message', window.messageHandler, false);
 </script>
-<script id="sentry">
-	(function(c,t,u,n,p,l,y,z,v)
-	{
-		function e(b)
-		{
-			if(!w)
-			{
-				w=!0;
-				var d=t.getElementsByTagName(u)[0],a=t.createElement(u);
-				a.src=z;
-				a.crossorigin="anonymous";
-				a.addEventListener("load",function()
-				{
-					try{c[n]=q;
-					c[p]=r;
-					var a=c[l],d=a.init;
-					a.init=function(a)
-					{for(var b in a)Object.prototype.hasOwnProperty.call(a,b)&&(v[b]=a[b]);d(v)};B(b,a)}
-					catch(A)
-					{
-						console.error(A)
-					}
-				    });
-				 d.parentNode.insertBefore(a,d)
-			    }
-			}
-				function B(b,d)
-				{
-					try{
-						for(var a=0;a<b.length;a++)if("function"===typeof b[a])b[a]();
-							var f=m.data,g=!1,h=!1;for(a=0;
-								a<f.length;a++)if(f[a].f)
-						{
-								h=!0;
-            var e=f[a];
-            !1===g&&"init"!==e.f&&d.init();
-            g=!0;d[e.f].apply(d,e.a)
-        }
-        !1===h&&d.init();
-        var k=c[n],l=c[p];
-        for(a=0;a<f.length;a++)f[a].e&&k?k.apply(c,f[a].e):f[a].p&&l&&l.apply(c,[f[a].p])
-    }
-catch(C)
-{
-	console.error(C)
-}
-}
-for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].src.indexOf(y))
-	{
-		g="no"!==document.scripts[k].getAttribute("data-lazy");break}var w=!1,h=[],m=function(b){(b.e||b.p||b.f&&-1<b.f.indexOf("capture")||b.f&&-1<b.f.indexOf("showReportDialog"))&&g&&e(h);m.data.push(b)
-	};
-            m.data=[];
-            c[l]={onLoad:function(b){h.push(b);
-            	g&&!x||e(h)},forceLoad:function(){x=!0;
-            		g&&setTimeout(function(){e(h)})}};
-            		"init addBreadcrumb captureMessage captureException captureEvent configureScope withScope showReportDialog".split(" ").forEach(function(b)
-            			{
-            				c[l][b]=function(){m({f:b,a:arguments})}});
-            		var q=c[n];
-            		c[n]=function(b,d,a,f,e){m({e:[].slice.call(arguments)});
-            		q&&q.apply(c,arguments)};
-            		var r=c[p];c[p]=function(b){m({p:b.reason});
-            		r&&r.apply(c,arguments)};
-            		g||setTimeout(function(){e(h)})})(window,document,
-            "script","onerror","onunhandledrejection","Sentry","8b4e078a51d04e0e9efdf470027f0ec1","https://browser.sentry-cdn.com/4.6.2/bundle.min.js",{"dsn":"https://8b4e078a51d04e0e9efdf470027f0ec1@sentry.wixpress.com/3"});
-	
-</script>
-<body  bgcolor="#ffffff "></body> <!------------------------------------------------------------- начало сайта-->
+<body bgcolor="#ffffff ">
+ <!------------------------------------------------------------- начало сайта-->
   <head>
   	<title>Студентська Соціальна Служба КПІ</title>
 
@@ -130,7 +64,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
     text-align: center; 
            }
          </style>
-  <div class="fig"  data-packed="false" data-vartical-text="false" data-min-height="30" id="studsicslujb" >  
+  <div class="fig"  data-packed="false" data-vartical-text="false" data-min-height="30" id="studsicslujb" > 
   	<h4 class="font_4" ><!------------------------------------------------------------- заголовок-->
   		<span style="color:#ff4040;">
   			<span style="font-family:playfair display,serif;">
@@ -173,7 +107,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
            }
          </style>
   <div class="fig" data-packed="false" data-vartical-text="false" data-min-height="10" id="vidkpi"> 
-    <h1  class="font_1" style ="text-align: center;">
+    <h1  class="font_1" >
     <span style="color:#800000;">
       <span style="font-family:playfair display,serif;"><!------------------------------------------------------------- второй текст заголовка-->
   
@@ -263,22 +197,53 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
 .menu-main:before, 
 .menu-main:after {content: none;}
 .menu-main a {display: block;}
-} </style>
+}
+</style>
   <body @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);  >
   <nav class="top-menu">
   <ul class="menu-main">
     <li><a href="http://sss.kpi.ua/category/news" class="current">Новини</a></li><!-------------------(добавить подменю)--------------- менюшка-->
     <li><a href="http://sss.kpi.ua/category/korisna-informaciya">Корисна інформація</a></li>
-    <li><a href="http://sss.kpi.ua/category/potribno-znati">Потрібно знати</a></li>
+    <li class="dropdown-standart"><a href="http://sss.kpi.ua/category/potribno-znati"  >Потрібно знати </a></li>
+      
+       
+     <!-- <ul class="submenu">
+        <li><a href="">Category</a></li>
+        <li><a href="">Author</a></li>
+        <li><a href="">Archive</a></li>
+        <li><a href="">Tags</a></li>
+      </ul>
+       -->
+      <!--  href="http://sss.kpi.ua/category/poradi-psixologa">Поради психолога 
+     href="http://sss.kpi.ua/category/cikavi-fakti">Цікаві факти 
+     href="http://sss.kpi.ua/category/10-prichin">10 причин 
+       -->
+   
     <li><a href="http://sss.kpi.ua/category/proekti">Проекти</a></li>
     <li><a href="http://sss.kpi.ua/category/de-cikavo-provesti-vixidni">Цікаві місця</a></li>
+    <li>
+      <form action="file:///C:/Users/irina/Desktop/web-projects/test-site/index.html">
+   <p><input type="search" name="q" placeholder="Пошук по сайту"> 
+   <input type="submit" value="Знайти"></p>
+  </form>
+    </li>
   </ul>
 </nav>
 </nav>
+
+<!-- <div class="search">
+  <form method="get" id="searchform" action="file:///C:/Users/irina/Desktop/web-projects/test-site/index.html?">
+    <fieldset>
+      <input type="s" name="text" onfocus="if(this.value=='Пошук') this.value='';"
+      onblur="if(this.value=='') this.value='Пошук';" value="Пошук">
+      <button type="submit"></button>
+    </fieldset>
+  </form>
+</div> -->
 </body>
 <style>
   * {
-  margin: 0;
+  margin: 1;
   box-sizing: border-box;
 }
 .post-wrap {
@@ -330,13 +295,13 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   color: #A69888;
   font-size: 14px;
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .post-item {
     flex-basis: 50%;
     flex-shrink: 0;       
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1000px) {
   .post-item {
     flex-basis: 33.333333333%;      
   }
@@ -474,7 +439,46 @@ body {background: #ffffff;}
   font-size: 24px;
   color: #707981;
 }
+blockquote {
+margin: 0;
+background:   #FB6652  ;
+border-top: 5px solid red;
+border-bottom: 5px solid red;
+color: white;
+padding: 30px 30px 30px 90px;
+position: relative;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+}
+blockquote:before {
+content: "\201C";
+font-family: serif;
+position: absolute;
+left: 20px;
+top: 20px;
+color: white;
+background: #FB6652;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+font-size: 50px;
+line-height: 1.35;
+text-align: center;
+}
+blockquote p {
+margin: 0 0 16px;
+font-size: 22px;
+letter-spacing: .05em;
+line-height: 1.4;
+}
+blockquote cite {
+font-style: normal;
+}
 </style>
+<blockquote>
+  <p>Я не знаю інших ознак переваги, крім доброти.</p>
+  <footer>— <cite>Людвіг ван Бетховен</cite></footer>
+</blockquote>
 <form class="decor">
   <div class="form-left-decoration"></div>
   <div class="form-right-decoration"></div>
@@ -487,7 +491,7 @@ body {background: #ffffff;}
     <input type="submit" value="Надіслати!">
   </div>
 </form>
-
+</body>
     <!--  <body> 
   <form>
    <p>
@@ -583,4 +587,3 @@ body {background: #ffffff;}
 </div>
 </div>
 </div> --><!-- веточки декор-->
-    
