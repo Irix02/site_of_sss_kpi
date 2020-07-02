@@ -76,7 +76,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
             "script","onerror","onunhandledrejection","Sentry","8b4e078a51d04e0e9efdf470027f0ec1","https://browser.sentry-cdn.com/4.6.2/bundle.min.js",{"dsn":"https://8b4e078a51d04e0e9efdf470027f0ec1@sentry.wixpress.com/3"});
 	
 </script>
-<body  bgcolor="#ffffff "></body>
+<body  bgcolor="#ffffff "></body> <!------------------------------------------------------------- начало сайта-->
   <head>
   	<title>Студентська Соціальна Служба КПІ</title>
 
@@ -97,7 +97,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   </head>
   <bodyclass data-js-loaded="true"  
     bgcolor="#ffffff ">
-    <div id="SITE_CONTAINER">
+    <div id="SITE_CONTAINER"><!----------------------------------------------------------------------- шрифты-->
     <style type="text/css" data-styleid="theme_fonts">
 .font_0 {font: normal normal normal 52px/1.4em poppins-semibold,poppins,sans-serif ;color:#EF5453;} 
 .font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#888886;} 
@@ -125,82 +125,9 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
     </div>
   		
 
-   <!-- <style type="text/css">
-   IMG.fik {
-    float: right; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
-   }
-  </style>
   
-  <div id="comp-kbkriu1i-rotated-wrapper" data-mesh-internal="true" class="fik">
-  <div data-svg-id="0049b0d977f04428ab092175ee76524b.svg" data-svg-type="color" data-display-mode="fit" data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" data-angle="66.7061502562986" data-angle-style-location="style" class="style-kbkriu7e" id="comp-kbkriu1i" style="width: 158px; height: 160px;" >
-    <div id="comp-kbkriu1ilink" class="style-kbkriu7elink" >
-    <div class="style-kbkriu7e_comp-kbkriu1i style-kbkriu7e_non-scaling-stroke style-kbkriu7esvg" id="comp-kbkriu1isvg" style="opacity: 1;">
-      <svg preserveAspectRatio="xMidYMid meet" id="comp-kbkriu1isvgcontent" data-bbox="12 11 176 177.997" viewBox="12 11 176 177.997" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" >
-    <g >
-        <path d="M182.467 78.781s-12.771 12.748-15.796 30.634c-3.025 17.886 5.995 31.497 4.841 34.136-1.154 2.639 12.771-12.748 15.796-30.634 3.025-17.886-4.841-34.136-4.841-34.136z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M130.078 41.997c-3.304 17.836 5.501 31.587 4.306 34.208s12.968-12.546 16.273-30.383c3.305-17.836-4.306-34.208-4.306-34.208s-12.968 12.547-16.273 30.383z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M57.701 41.32c13.057 12.571 29.365 12.763 30.893 15.204 1.529 2.441-3.332-17.749-16.389-30.32C59.149 13.633 41.312 11 41.312 11s3.332 17.749 16.389 30.32z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M77.255 64.922c2.707.974-13.564-11.898-31.584-13.707C27.652 49.405 12 58.369 12 58.369s13.564 11.898 31.584 13.707c18.019 1.81 30.964-8.128 33.671-7.154z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M87.119 115.779c2.659 1.099-12.996-12.518-30.912-15.167s-33.968 5.575-33.968 5.575 12.996 12.518 30.912 15.167c17.916 2.648 31.309-6.674 33.968-5.575z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M72.554 123.489c-10.552 2.94-17.41 11.431-17.41 11.431s10.25 3.725 20.802.785 15.671-11.385 17.41-11.431c1.739-.046-10.25-3.725-20.802-.785z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M171.904 139.113c-.959 6.024-2.069 12.914-6.151 17.694-1.383-2.969-2.885-5.889-4.4-8.754a342.135 342.135 0 0 0-24.401-39.387 340.802 340.802 0 0 0-4.378-5.951c1.296-17.828 4.095-35.497 8.617-52.794.313-1.198-1.537-1.709-1.85-.511-4.371 16.72-7.121 33.797-8.496 51.017-16.523-21.642-35.565-41.255-56.656-58.485-.949-.775-2.315.577-1.357 1.359A353.47 353.47 0 0 1 98.97 66.952c-16.246-2.946-32.669-4.535-49.19-4.623-1.235-.007-1.236 1.916 0 1.922 17.313.092 34.516 1.812 51.521 5.066 11.319 11.52 21.865 23.798 31.459 36.828 4.895 6.649 9.52 13.494 13.925 20.478-26.212-5.387-52.449-10.648-78.66-16.041-1.205-.248-1.721 1.604-.51 1.853 12.472 2.566 24.95 5.099 37.429 7.633-8.945 2.508-17.924 4.891-26.953 7.081-1.2.291-.692 2.145.51 1.853 10.133-2.458 20.205-5.148 30.235-7.999.091-.026.153-.074.224-.116 13.045 2.648 26.089 5.297 39.127 7.979 2.571 4.147 5.086 8.328 7.479 12.581 7.811 13.887 17.428 29.814 13.746 46.35-.268 1.205 1.581 1.72 1.85.511 2.308-10.365-.395-20.235-4.545-29.601 4.403-4.681 5.822-11.373 6.883-17.524 1.935-11.231 2.689-22.673 3.982-33.988.14-1.227-1.78-1.217-1.919 0" fill="#484F42" data-color="2">
-          
-        </path>
-    </g>
-</svg>
-</div>
-</div>
-</div>
-</div>
-<div id="comp-kbkrj159-rotated-wrapper" data-mesh-internal="true" class="fig">
-  <div data-svg-id="0049b0d977f04428ab092175ee76524b.svg" data-svg-type="color" data-display-mode="fit" data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" data-angle="293.29384974370146" data-angle-style-location="style" class="style-kbkriu7e" id="comp-kbkrj159" style="width: 158px; height: 160px;">
-    <div id="comp-kbkrj159link" class="style-kbkriu7elink">
-      <div class="style-kbkriu7e_comp-kbkrj159 style-kbkriu7e_non-scaling-stroke style-kbkriu7esvg" id="comp-kbkrj159svg" style="transform: scale(-1, 1); opacity: 1;">
-        <svg preserveAspectRatio="xMidYMid meet" id="comp-kbkrj159svgcontent" data-bbox="12 11 176 177.997" viewBox="12 11 176 177.997" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img">
-    <g>
-        <path d="M182.467 78.781s-12.771 12.748-15.796 30.634c-3.025 17.886 5.995 31.497 4.841 34.136-1.154 2.639 12.771-12.748 15.796-30.634 3.025-17.886-4.841-34.136-4.841-34.136z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M130.078 41.997c-3.304 17.836 5.501 31.587 4.306 34.208s12.968-12.546 16.273-30.383c3.305-17.836-4.306-34.208-4.306-34.208s-12.968 12.547-16.273 30.383z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M57.701 41.32c13.057 12.571 29.365 12.763 30.893 15.204 1.529 2.441-3.332-17.749-16.389-30.32C59.149 13.633 41.312 11 41.312 11s3.332 17.749 16.389 30.32z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M77.255 64.922c2.707.974-13.564-11.898-31.584-13.707C27.652 49.405 12 58.369 12 58.369s13.564 11.898 31.584 13.707c18.019 1.81 30.964-8.128 33.671-7.154z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M87.119 115.779c2.659 1.099-12.996-12.518-30.912-15.167s-33.968 5.575-33.968 5.575 12.996 12.518 30.912 15.167c17.916 2.648 31.309-6.674 33.968-5.575z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M72.554 123.489c-10.552 2.94-17.41 11.431-17.41 11.431s10.25 3.725 20.802.785 15.671-11.385 17.41-11.431c1.739-.046-10.25-3.725-20.802-.785z" fill="#E89394" data-color="1">
-          
-        </path>
-        <path d="M171.904 139.113c-.959 6.024-2.069 12.914-6.151 17.694-1.383-2.969-2.885-5.889-4.4-8.754a342.135 342.135 0 0 0-24.401-39.387 340.802 340.802 0 0 0-4.378-5.951c1.296-17.828 4.095-35.497 8.617-52.794.313-1.198-1.537-1.709-1.85-.511-4.371 16.72-7.121 33.797-8.496 51.017-16.523-21.642-35.565-41.255-56.656-58.485-.949-.775-2.315.577-1.357 1.359A353.47 353.47 0 0 1 98.97 66.952c-16.246-2.946-32.669-4.535-49.19-4.623-1.235-.007-1.236 1.916 0 1.922 17.313.092 34.516 1.812 51.521 5.066 11.319 11.52 21.865 23.798 31.459 36.828 4.895 6.649 9.52 13.494 13.925 20.478-26.212-5.387-52.449-10.648-78.66-16.041-1.205-.248-1.721 1.604-.51 1.853 12.472 2.566 24.95 5.099 37.429 7.633-8.945 2.508-17.924 4.891-26.953 7.081-1.2.291-.692 2.145.51 1.853 10.133-2.458 20.205-5.148 30.235-7.999.091-.026.153-.074.224-.116 13.045 2.648 26.089 5.297 39.127 7.979 2.571 4.147 5.086 8.328 7.479 12.581 7.811 13.887 17.428 29.814 13.746 46.35-.268 1.205 1.581 1.72 1.85.511 2.308-10.365-.395-20.235-4.545-29.601 4.403-4.681 5.822-11.373 6.883-17.524 1.935-11.231 2.689-22.673 3.982-33.988.14-1.227-1.78-1.217-1.919 0" fill="#484F42" data-color="2">
-          
-        </path>
-    </g>
-</svg>
-</div>
-</div>
-</div>
-</div> --><!-- веточки декор-->
   <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 50px; pointer-events: none;"data-min-height="30"class="txtNew" id="studsicslujb"> 
-  	<h4 class="font_4" style ="text-align: center;">
+  	<h4 class="font_4" style ="text-align: center;"><!------------------------------------------------------------- заголовок-->
   		<span style="color:#ff4040;">
   			<span style="font-family:playfair display,serif;">
   				<span style="letter-spacing:0.05em";>
@@ -234,12 +161,12 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
 
     
     <img   id="ssimg"   data-type="image" itemprop="image" style="object-position:50% 50%;width:155px;height:156px;object-fit:cover"  src="https://kpi.ua/files/styles/medium/public/images-page/sss_0.jpg?itok=QxyrnHOy" alt="Емблема студенческой социальной службы КПИ" class="round">
-  </body>
+  </body><!--------------------------------------------------------------------------------------------------------- емблема кпи-->
 
   <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 10px; pointer-events: none;"data-min-height="10"class="txtNew" id="vidkpi"> 
     <h1  class="font_1" style ="text-align: center;">
     <span style="color:#800000;">
-      <span style="font-family:playfair display,serif;">
+      <span style="font-family:playfair display,serif;"><!------------------------------------------------------------- второй текст заголовка-->
   
       від КПІ ім. Ігоря Сікорського
 
@@ -248,9 +175,10 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
     </h1> 
 
 </div>
-    <hr color="red" >
+    <hr color="red" ><!----------------------------------------------------------------------------- отделяющая линия--->
      </body>
-     <style >.top-menu {
+     <style > 
+      .top-menu {
   margin: 0 60px;
   position: relative;
   background: #FA8072;    
@@ -330,7 +258,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   <body @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);  >
   <nav class="top-menu">
   <ul class="menu-main">
-    <li><a href="http://sss.kpi.ua/category/news" class="current">Новини</a></li>
+    <li><a href="http://sss.kpi.ua/category/news" class="current">Новини</a></li><!-------------------(добавить подменю)--------------- менюшка-->
     <li><a href="http://sss.kpi.ua/category/korisna-informaciya">Корисна інформація</a></li>
     <li><a href="http://sss.kpi.ua/category/potribno-znati">Потрібно знати</a></li>
     <li><a href="http://sss.kpi.ua/category/proekti">Проекти</a></li>
@@ -405,7 +333,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   }
 }
 </style>
-<div class="post-wrap">
+<div class="post-wrap"><!------------------------------------------------------------- кликабельные новости-->
   <div class="post-item">
     <div class="post-item-wrap">
       <a href="http://sss.kpi.ua/news/pro-grip-grvi-ta-koronavirus.html " class="post-link">
@@ -443,11 +371,113 @@ COVID-19. У цих умовах наша команда вирішила доп
 ⏳ 16:00
 
 🏕
-приміщення відділу соціально-психологічної роботи – Студентської соціальної служби Департаменту навчально-виховної роботи (20 гуртожиток, окремий вхід зліва)</p>
+приміщення відділу соціально-психологічної роботи – Студентської соціальної служби Департаменту навчально-виховної роботи (20 гуртожиток, окремий вхід зліва).</p>
       </a>      
     </div>
   </div>  
 </div>
+</html> 
+<style>
+  * {box-sizing: border-box;}
+body {background: #ffffff;}
+.decor {
+  position: relative;
+  max-width: 400px;
+  margin: 50px auto 0;
+  background: white;
+  border-radius: 30px;
+}
+.form-left-decoration,
+.form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #f69a73;
+  border-radius: 20px;
+}
+.form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+}
+.form-right-decoration {
+  top: 60px;
+  right: -30px;
+}
+.form-left-decoration:before,
+.form-left-decoration:after,
+.form-right-decoration:before,
+.form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: white;
+}
+.form-left-decoration:before {top: -20px;}
+.form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+}
+.form-right-decoration:before {
+  top: -20px;
+  right: 0;
+}
+.form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+}
+.circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
+.form-inner {padding: 50px;}
+.form-inner input,
+.form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  background: #E9EFF6;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-inner input[type="submit"] {
+  margin-top: 30px;
+  background: #f69a73;
+  border-bottom: 4px solid #FFE4E1;
+  color: white;
+  font-size: 14px;
+}
+.form-inner textarea {resize: none;}
+.form-inner h3 {
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #707981;
+}
+</style>
+<form class="decor">
+  <div class="form-left-decoration"></div>
+  <div class="form-right-decoration"></div>
+  <div class="circle"></div>
+  <div class="form-inner">
+    <h3>Надішліть нам свої питання чи пропозиції! Чекаємо!</h3>
+    <input type="text" placeholder="Ваше ім'я">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Ваше повідомлення: " rows="3"></textarea>
+    <input type="submit" value="Надіслати!">
+  </div>
+</form>
 
     <!--  <body> 
   <form>
@@ -468,7 +498,81 @@ COVID-19. У цих умовах наша команда вирішила доп
      
   		
   
-</html> 
 
+    
+     <!-- <style type="text/css">
+   IMG.fik {
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+   }
+  </style>
+  
+  <div id="comp-kbkriu1i-rotated-wrapper" data-mesh-internal="true" class="fik">
+  <div data-svg-id="0049b0d977f04428ab092175ee76524b.svg" data-svg-type="color" data-display-mode="fit" data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" data-angle="66.7061502562986" data-angle-style-location="style" class="style-kbkriu7e" id="comp-kbkriu1i" style="width: 158px; height: 160px;" >
+    <div id="comp-kbkriu1ilink" class="style-kbkriu7elink" >
+    <div class="style-kbkriu7e_comp-kbkriu1i style-kbkriu7e_non-scaling-stroke style-kbkriu7esvg" id="comp-kbkriu1isvg" style="opacity: 1;">
+      <svg preserveAspectRatio="xMidYMid meet" id="comp-kbkriu1isvgcontent" data-bbox="12 11 176 177.997" viewBox="12 11 176 177.997" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" >
+    <g >
+        <path d="M182.467 78.781s-12.771 12.748-15.796 30.634c-3.025 17.886 5.995 31.497 4.841 34.136-1.154 2.639 12.771-12.748 15.796-30.634 3.025-17.886-4.841-34.136-4.841-34.136z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M130.078 41.997c-3.304 17.836 5.501 31.587 4.306 34.208s12.968-12.546 16.273-30.383c3.305-17.836-4.306-34.208-4.306-34.208s-12.968 12.547-16.273 30.383z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M57.701 41.32c13.057 12.571 29.365 12.763 30.893 15.204 1.529 2.441-3.332-17.749-16.389-30.32C59.149 13.633 41.312 11 41.312 11s3.332 17.749 16.389 30.32z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M77.255 64.922c2.707.974-13.564-11.898-31.584-13.707C27.652 49.405 12 58.369 12 58.369s13.564 11.898 31.584 13.707c18.019 1.81 30.964-8.128 33.671-7.154z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M87.119 115.779c2.659 1.099-12.996-12.518-30.912-15.167s-33.968 5.575-33.968 5.575 12.996 12.518 30.912 15.167c17.916 2.648 31.309-6.674 33.968-5.575z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M72.554 123.489c-10.552 2.94-17.41 11.431-17.41 11.431s10.25 3.725 20.802.785 15.671-11.385 17.41-11.431c1.739-.046-10.25-3.725-20.802-.785z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M171.904 139.113c-.959 6.024-2.069 12.914-6.151 17.694-1.383-2.969-2.885-5.889-4.4-8.754a342.135 342.135 0 0 0-24.401-39.387 340.802 340.802 0 0 0-4.378-5.951c1.296-17.828 4.095-35.497 8.617-52.794.313-1.198-1.537-1.709-1.85-.511-4.371 16.72-7.121 33.797-8.496 51.017-16.523-21.642-35.565-41.255-56.656-58.485-.949-.775-2.315.577-1.357 1.359A353.47 353.47 0 0 1 98.97 66.952c-16.246-2.946-32.669-4.535-49.19-4.623-1.235-.007-1.236 1.916 0 1.922 17.313.092 34.516 1.812 51.521 5.066 11.319 11.52 21.865 23.798 31.459 36.828 4.895 6.649 9.52 13.494 13.925 20.478-26.212-5.387-52.449-10.648-78.66-16.041-1.205-.248-1.721 1.604-.51 1.853 12.472 2.566 24.95 5.099 37.429 7.633-8.945 2.508-17.924 4.891-26.953 7.081-1.2.291-.692 2.145.51 1.853 10.133-2.458 20.205-5.148 30.235-7.999.091-.026.153-.074.224-.116 13.045 2.648 26.089 5.297 39.127 7.979 2.571 4.147 5.086 8.328 7.479 12.581 7.811 13.887 17.428 29.814 13.746 46.35-.268 1.205 1.581 1.72 1.85.511 2.308-10.365-.395-20.235-4.545-29.601 4.403-4.681 5.822-11.373 6.883-17.524 1.935-11.231 2.689-22.673 3.982-33.988.14-1.227-1.78-1.217-1.919 0" fill="#484F42" data-color="2">
+          
+        </path>
+    </g>
+</svg>
+</div>
+</div>
+</div>
+</div>
+<div id="comp-kbkrj159-rotated-wrapper" data-mesh-internal="true" class="fig">
+  <div data-svg-id="0049b0d977f04428ab092175ee76524b.svg" data-svg-type="color" data-display-mode="fit" data-viewbox="0 0 200 200" data-preserve-viewbox="ignore" data-angle="293.29384974370146" data-angle-style-location="style" class="style-kbkriu7e" id="comp-kbkrj159" style="width: 158px; height: 160px;">
+    <div id="comp-kbkrj159link" class="style-kbkriu7elink">
+      <div class="style-kbkriu7e_comp-kbkrj159 style-kbkriu7e_non-scaling-stroke style-kbkriu7esvg" id="comp-kbkrj159svg" style="transform: scale(-1, 1); opacity: 1;">
+        <svg preserveAspectRatio="xMidYMid meet" id="comp-kbkrj159svgcontent" data-bbox="12 11 176 177.997" viewBox="12 11 176 177.997" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img">
+    <g>
+        <path d="M182.467 78.781s-12.771 12.748-15.796 30.634c-3.025 17.886 5.995 31.497 4.841 34.136-1.154 2.639 12.771-12.748 15.796-30.634 3.025-17.886-4.841-34.136-4.841-34.136z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M130.078 41.997c-3.304 17.836 5.501 31.587 4.306 34.208s12.968-12.546 16.273-30.383c3.305-17.836-4.306-34.208-4.306-34.208s-12.968 12.547-16.273 30.383z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M57.701 41.32c13.057 12.571 29.365 12.763 30.893 15.204 1.529 2.441-3.332-17.749-16.389-30.32C59.149 13.633 41.312 11 41.312 11s3.332 17.749 16.389 30.32z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M77.255 64.922c2.707.974-13.564-11.898-31.584-13.707C27.652 49.405 12 58.369 12 58.369s13.564 11.898 31.584 13.707c18.019 1.81 30.964-8.128 33.671-7.154z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M87.119 115.779c2.659 1.099-12.996-12.518-30.912-15.167s-33.968 5.575-33.968 5.575 12.996 12.518 30.912 15.167c17.916 2.648 31.309-6.674 33.968-5.575z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M72.554 123.489c-10.552 2.94-17.41 11.431-17.41 11.431s10.25 3.725 20.802.785 15.671-11.385 17.41-11.431c1.739-.046-10.25-3.725-20.802-.785z" fill="#E89394" data-color="1">
+          
+        </path>
+        <path d="M171.904 139.113c-.959 6.024-2.069 12.914-6.151 17.694-1.383-2.969-2.885-5.889-4.4-8.754a342.135 342.135 0 0 0-24.401-39.387 340.802 340.802 0 0 0-4.378-5.951c1.296-17.828 4.095-35.497 8.617-52.794.313-1.198-1.537-1.709-1.85-.511-4.371 16.72-7.121 33.797-8.496 51.017-16.523-21.642-35.565-41.255-56.656-58.485-.949-.775-2.315.577-1.357 1.359A353.47 353.47 0 0 1 98.97 66.952c-16.246-2.946-32.669-4.535-49.19-4.623-1.235-.007-1.236 1.916 0 1.922 17.313.092 34.516 1.812 51.521 5.066 11.319 11.52 21.865 23.798 31.459 36.828 4.895 6.649 9.52 13.494 13.925 20.478-26.212-5.387-52.449-10.648-78.66-16.041-1.205-.248-1.721 1.604-.51 1.853 12.472 2.566 24.95 5.099 37.429 7.633-8.945 2.508-17.924 4.891-26.953 7.081-1.2.291-.692 2.145.51 1.853 10.133-2.458 20.205-5.148 30.235-7.999.091-.026.153-.074.224-.116 13.045 2.648 26.089 5.297 39.127 7.979 2.571 4.147 5.086 8.328 7.479 12.581 7.811 13.887 17.428 29.814 13.746 46.35-.268 1.205 1.581 1.72 1.85.511 2.308-10.365-.395-20.235-4.545-29.601 4.403-4.681 5.822-11.373 6.883-17.524 1.935-11.231 2.689-22.673 3.982-33.988.14-1.227-1.78-1.217-1.919 0" fill="#484F42" data-color="2">
+          
+        </path>
+    </g>
+</svg>
+</div>
+</div>
+</div>
+</div> --><!-- веточки декор-->
     
     
