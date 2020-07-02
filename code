@@ -124,13 +124,17 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
       
     </div>
   		
-
-  
-  <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 50px; pointer-events: none;"data-min-height="30"class="txtNew" id="studsicslujb"> 
-  	<h4 class="font_4" style ="text-align: center;"><!------------------------------------------------------------- заголовок-->
+<head>
+   <style>
+   .fig {
+    text-align: center; 
+           }
+         </style>
+  <div class="fig"  data-packed="false" data-vartical-text="false" data-min-height="30" id="studsicslujb" >  
+  	<h4 class="font_4" ><!------------------------------------------------------------- заголовок-->
   		<span style="color:#ff4040;">
   			<span style="font-family:playfair display,serif;">
-  				<span style="letter-spacing:0.05em";>
+  				<span style="letter-spacing:0.05em"; >
   					Студентська
   					<br>
   					
@@ -143,7 +147,7 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
   		</span>
   	</h4>
   </div>
-
+</head>
 
 <style>
       .fig {
@@ -162,8 +166,13 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
     
     <img   id="ssimg"   data-type="image" itemprop="image" style="object-position:50% 50%;width:155px;height:156px;object-fit:cover"  src="https://kpi.ua/files/styles/medium/public/images-page/sss_0.jpg?itok=QxyrnHOy" alt="Емблема студенческой социальной службы КПИ" class="round">
   </body><!--------------------------------------------------------------------------------------------------------- емблема кпи-->
-
-  <div data-packed="false" data-vartical-text="false" style="width: 1503px; min-height: 10px; pointer-events: none;"data-min-height="10"class="txtNew" id="vidkpi"> 
+<head>
+<style>
+   .fig {
+    text-align: center; 
+           }
+         </style>
+  <div class="fig" data-packed="false" data-vartical-text="false" data-min-height="10" id="vidkpi"> 
     <h1  class="font_1" style ="text-align: center;">
     <span style="color:#800000;">
       <span style="font-family:playfair display,serif;"><!------------------------------------------------------------- второй текст заголовка-->
@@ -172,9 +181,9 @@ for(var g=!0,x=!1,k=0;k<document.scripts.length;k++)if(-1<document.scripts[k].sr
 
       </span>
     </hr>
-    </h1> 
-
+    </h1>
 </div>
+</head>
     <hr color="red" ><!----------------------------------------------------------------------------- отделяющая линия--->
      </body>
      <style > 
@@ -453,7 +462,7 @@ body {background: #ffffff;}
 .form-inner input[type="submit"] {
   margin-top: 30px;
   background: #f69a73;
-  border-bottom: 4px solid #FFE4E1;
+  border-bottom: 4px solid #ffffff;
   color: white;
   font-size: 14px;
 }
@@ -574,5 +583,4 @@ body {background: #ffffff;}
 </div>
 </div>
 </div> --><!-- веточки декор-->
-    
     
