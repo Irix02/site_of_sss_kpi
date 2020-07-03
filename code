@@ -128,14 +128,32 @@
       від КПІ ім. Ігоря Сікорського
 
       </span>
-    </hr>
+    </span>
     </h5>
 </div>
 </head>
     <hr color="red" ><!----------------------------------------------------------------------------- отделяющая линия--->
-     </body>
+     </body><!-------------------------------------------------------------------------------------------------------- начало менюшки--->
      <style > 
-      .top-menu {
+      @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);
+      body{
+        margin: 0;
+        font-family: 'PT Sans Caption', sans-serif;
+      }
+      nav{
+        background:#FA8072;
+      }
+      nav ul:after{
+  content: "";
+  display: table;
+  clear: both;
+                   }
+      nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+            }
+      .top-menu > li{
   margin: 0 60px;
   position: relative;
   background: #FA8072;    
@@ -144,8 +162,19 @@
     inset -1px 0 0 rgba(255,255,255,.1), 
     inset 150px 0 150px -150px rgba(255,255,255,.12), 
     inset -150px 0 150px -150px rgba(255,255,255,.12);
-                       }
-                       .top-menu:before,
+    }
+    .top-menu > li > a.active,
+    .submenu a:hover {color: red ;}
+    .top-menu .fa,
+    .submenu .fa {
+      content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+  height: 3px;
+    }
+.top-menu:before,
 .top-menu:after {
   content: "";
   position: absolute;
@@ -153,6 +182,38 @@
   left: 0;
   width: 100%;
   height: 3px;
+}
+.submenu {
+ position: absolute;
+  z-index: 5;
+  min-width: 200px;
+  background: white;
+  border-top: 1px solid #FA8072;
+  border-left: 1px solid #FA8072;
+  border-right: 1px solid #FA8072;
+  visibility: hidden;
+  opacity: 0; 
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .3s linear; 
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #282828;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #FA8072;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  transition: .3s linear;
+}
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
 }
 .top-menu:before {
   top: 0;
@@ -212,54 +273,84 @@
 .menu-main:after {content: none;}
 .menu-main a {display: block;}
 }
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  background: #F9F0DA;
+  border-bottom: 4px solid #be290e;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+button {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+button:before {
+  content: ">";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #be290e;
+}
 </style>
-  <body @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);  >
-  <nav class="top-menu">
+<nav class="top-menu">
   <ul class="menu-main">
-    <li><a href="http://sss.kpi.ua/category/news" class="current">Новини</a></li><!-------------------(добавить подменю)--------------- менюшка-->
+    <li><a href="http://sss.kpi.ua/category/news" class="current">Новини</a></li>
     <li><a href="http://sss.kpi.ua/category/korisna-informaciya">Корисна інформація</a></li>
-    <li class="dropdown-standart"><a href="http://sss.kpi.ua/category/potribno-znati"  >Потрібно знати </a></li>
-      
-       
-     <!-- <ul class="submenu">
-        <li><a href="">Category</a></li>
-        <li><a href="">Author</a></li>
-        <li><a href="">Archive</a></li>
-        <li><a href="">Tags</a></li>
+    <li><a href="http://sss.kpi.ua/category/potribno-znati" class="active">Потрібно знати<span class="fa fa-angle-down"></span></a>
+      <ul class="submenu">
+        <li><a href="http://sss.kpi.ua/category/poradi-psixologa">Поради психолога</a></li>
+        <li><a href="http://sss.kpi.ua/category/cikavi-fakti">Цікаві факти</a></li>
+        <li><a href="http://sss.kpi.ua/category/10-prichin">10 причин</a></li>
       </ul>
-       -->
-      <!--  href="http://sss.kpi.ua/category/poradi-psixologa">Поради психолога 
-     href="http://sss.kpi.ua/category/cikavi-fakti">Цікаві факти 
-     href="http://sss.kpi.ua/category/10-prichin">10 причин 
-       -->
-   
-    <li><a href="http://sss.kpi.ua/category/proekti">Проекти</a></li>
-    <li><a href="http://sss.kpi.ua/category/de-cikavo-provesti-vixidni">Цікаві місця</a></li>
-    <li>
-      <form action="file:///C:/Users/irina/Desktop/web-projects/test-site/index.html">
-   <p><input type="search" name="q" placeholder="Пошук по сайту"> 
-   <input type="submit" value="Знайти"></p>
-  </form>
     </li>
-  </ul>
-</nav>
-</nav>
+    <li><a href="http://sss.kpi.ua/category/proekti">Проекти</a></li>
+    <li><a href="http://sss.kpi.ua/category/de-cikavo-provesti-vixidni">Цікаві місця<span class="fa fa-angle-down"></span></a>
+      <ul class="submenu">
+        <li><a href="http://sss.kpi.ua/category/vistavki">Виставки</a></li>
+        <li><a href="http://sss.kpi.ua/category/treningi">Тренінги</a></li>
+        <li><a href="http://sss.kpi.ua/category/teatr-ta-kino">Театр і кіно</a></li>
+         <li><a href="http://sss.kpi.ua/category/sport">Спорт</a></li>
+      </ul>
+    </li>
+    <li>
 
-<!-- <div class="search">
-  <form method="get" id="searchform" action="file:///C:/Users/irina/Desktop/web-projects/test-site/index.html?">
-    <fieldset>
-      <input type="s" name="text" onfocus="if(this.value=='Пошук') this.value='';"
-      onblur="if(this.value=='') this.value='Пошук';" value="Пошук">
-      <button type="submit"></button>
-    </fieldset>
-  </form>
-</div> -->
-</body>
-<style>
-  * {
+      <div class="d4" @import url(font-awesome-sprockets);>
+         <form action="file:///C:/Users/irina/Desktop/web-projects/test-site/index.html"><!--(дооформить)----- поиск по текущей страннице-->
+            <input type="text" placeholder="Знайти...">
+            <button type="submit"></button>
+        </form>
+      </div>
+      </li>
+       </ul>
+      </nav> 
+  <h0 class="font_0">
+    <span style="color:#ff4040;">
+      <span style="font-family:playfair display,serif;"><!---------------------------------------------------------- новости-->
+  
+      Новини
+
+      </span>
+    </span>
+  </h0> 
+<style> 
+  *{
   margin: 1;
   box-sizing: border-box;
-}
+   }
 .post-wrap {
   max-width: 1120px;
   margin: 0 auto;
@@ -321,7 +412,7 @@
   }
 }
 </style>
-<div class="post-wrap"><!------------------------------------------------------------- кликабельные новости-->
+<div class="post-wrap"><!---------------------------------(сделать редактор новостей)---------------------------- кликабельные новости-->
   <div class="post-item">
     <div class="post-item-wrap">
       <a href="http://sss.kpi.ua/news/pro-grip-grvi-ta-koronavirus.html " class="post-link">
@@ -501,9 +592,26 @@ font-style: normal;
   <p>Я не знаю інших ознак переваги, крім доброти.</p><!------------------------------------------------------------- полоса с цитатой -->
   <footer>— <cite>Людвіг ван Бетховен</cite></footer>
 </blockquote>
- <div   style="height: 1px; min-height: 1px; " class="side-image">
-              <img  width="313" height="313"  src="_16734-174.jpg"><!--------------сделать увелечение(анимация)------------------- о донации крови -->
+
+<style>
+   .scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+</style>
+ <div  style="height: 1px; min-height: 1px; " class="side-image">
+  <div class="scale">
+  <a  href=" https://donor.ua/">
+              <img  width="313" height="313"  src="_16734-174.jpg"></a><!----------------------------------- о донации крови -->
             </div>
+          </div>
 <form class="decor">
   <div class="form-left-decoration"></div>
   <div class="form-right-decoration"></div>
@@ -517,20 +625,7 @@ font-style: normal;
     <input type="submit" value="Надіслати!">
   </div>
 </form>
+
 </body>
-    <!--  <body> 
-  <form>
-   <p>
-    <button>
-    Кнопка с текстом //просто кнопка с текстом,лол
-   </button>
-  </p>
-  </form>
-  </body>  -->
-    <!-- <body> 
-  <form>
-   <p><input value="Введите текст"></p> //это для отправки на почту в будующем на страннице новостей
-   <p><input type="submit" value="Отправить">
-      <input type="reset" value="Очистить"></p>
-  </form>
- </body>-->
+</body>
+</html>
