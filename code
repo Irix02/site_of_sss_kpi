@@ -81,10 +81,10 @@
   					Студентська
   					<br>
   					<div style="height: 1px; min-height: 1px; " class="image-side">
-              <img style="transform: scaleX(-1);" width="210" height="228" src="07889.png">     
+              <img style="transform: scaleX(-1);" width="138" height="177" src="Ветка Лево.png">     
             </div>
             <div   style="height: 1px; min-height: 1px; " class="side-image">
-              <img  width="210" height="228"  src="07889.png">
+              <img  width="138" height="177"  src="Ветка Лево.png">
             </div>
   					соціальна
   					<br>
@@ -692,8 +692,29 @@ a{
  }
 
 </style>
-<div>
-  <span>
+</body>
+</body>
+</body>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <title>Фиксированный подвал</title>
+  <style type="text/css">
+   #footer {
+    position: relative; 
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 120px; /* Поля вокруг текста */
+    background: #FFDAB9 url(7890.jpg); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    overflow: hidden;
+    margin:  0; 
+   }
+  </style>
+ </head>
+ <body>
+
+  <div id="footer">
+   <span>
 <ul class= "drag">
    <li class= "dragli"><a color:white; class="draglia" href="https://telegra.ph/V%D1%96dd%D1%96l-soc%D1%96alno-psiholog%D1%96chnoi-roboti---Studentska-soc%D1%96alna-sluzhba-06-19" title="Про нас">Про нас</a></li>
    <li class= "dragli"><a color:white; class="draglia" href="http://facebook.com/sss.kpi" class="facebook" title="Facebook">Facebook</a></li>
@@ -703,10 +724,8 @@ a{
 </ul>
 </div>
 </span>
-</div>
-</body>
-</body>
-</body>
+  </div>
+ </body>
 </html>
 <!-- <style >
   body {
@@ -871,3 +890,4 @@ https://psybooking.simplybook.it/v2/
       <input type="reset" value="Очистить"></p>
   </form>
  </body>-->
+    
