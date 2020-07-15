@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html>
-<script type="text/javascript"></script>
-<script>
-	window.messageBuffer = [];
-	window.messageHandler = function(event)
-	 {
-		messageBuffer.push(event)
-	 };
-	window.addEventListener('message', window.messageHandler, false);
-</script>
-<body bgcolor="#ffffff ">
+<style>
+	html{
+    background-image: url(done2.jpg), url(done2.jpg);
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+
+
+   /*    filter: opacity(50%);*/
+   }
+</style>
+<html >
+<head >
 
  <!------------------------------------------------------------- начало сайта-->
-  <head>
+  <body>
   	<title>Студентська Соціальна Служба КПІ</title>
-
-    <style type="text/css">
+    <style>
       p {
   display: inline-block;
-}
+        }
    div { 
     width: 100%; /* Ширина */
-    background: #ffffff; /* Цвет фона */
+   /* Цвет фона */
     padding: 0px; /* Поля */
     -moz-box-sizing: border-box; /* Для Firefox */
     -webkit-box-sizing: border-box; /* Для Safari и Chrome */
@@ -29,9 +30,8 @@
    }
   </style>
     <meta charset="utf-8">
-  </head>
-  <bodyclass data-js-loaded="true"  
-    bgcolor="#ffffff ">
+  </body>
+  <bodyclass data-js-loaded="true">
     <div id="SITE_CONTAINER"><!----------------------------------------------------------------------- шрифты-->
     <style type="text/css" data-styleid="theme_fonts">
 .font_0 {font: normal normal normal 52px/1.4em poppins-semibold,poppins,sans-serif ;color:#EF5453;} 
@@ -48,7 +48,7 @@
 
     </style>
    </div>
- 
+ </bodyclass>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
  </link>
   <header data-is-absolute-layout="false" data-is-mobile="false" data-state="transition-allowed" data-site-widht="980" data-header-top="0" data-style="position:relative;margin-top:0;left:0;margin-left:0;width:100%;min-width:980px;top:;bottom:;right:" class="style-k8wt3n6u" id= "SITE_HEADER">
@@ -61,6 +61,18 @@
   		
 <head>
    <style>
+   	/*div {
+   		background-attachment: fixed;
+   		background: url(photo_2020-07-06_16-39-58_photos_v2_x4.jpg);
+   	}
+   	body{
+   		background-attachment: fixed;
+   		background: url(photo_2020-07-06_16-39-58_photos_v2_x4.jpg);
+   	}
+   	head{
+   		background-attachment: fixed;
+   		background: url(photo_2020-07-06_16-39-58_photos_v2_x4.jpg);
+   	}*/
    .fig {
     text-align: center; 
            }
@@ -73,9 +85,10 @@
             transform: scaleX(-1);
            }
          </style>
+         <div class="local" >
   <div class="fig"  data-packed="false" data-vartical-text="false" data-min-height="30" id="studsicslujb" > 
   	<h0 class="font_0" ><!------------------------------------------------------------- заголовок-->
-  		<span style="color:#ff4040;">
+  		<span style="color:white;">
   			<span style="font-family:playfair display,serif;">
   				<span style="letter-spacing:0.05em"; >
   					Студентська
@@ -96,7 +109,7 @@
   	</h0>
   </div>
 </head>
-
+</div>
 <style>
       .fig {
     text-align: center; 
@@ -107,7 +120,7 @@
     box-shadow: 0 0 9px #BC8F8F; /* Параметры тени */
            }
     </style>
-  <body class="fig" bgcolor="#FFF5EE" style ="align-items: center; ">
+  <body class="fig"  style ="align-items: center; ">
     <meta charset="utf-8">
 
     
@@ -121,7 +134,7 @@
          </style>
   <div class="fig" data-packed="false" data-vartical-text="false" data-min-height="10" id="vidkpi"> 
     <h5  class="font_5" >
-    <span style="color:#800000;">
+    <span style="color:white;">
       <span style="font-family:playfair display,serif;"><!------------------------------------------------------------- второй текст заголовка-->
   
       від КПІ ім. Ігоря Сікорського
@@ -131,7 +144,7 @@
     </h5>
 </div>
 </head>
-    <hr color="red" ><!----------------------------------------------------------------------------- отделяющая линия--->
+    <!-- <hr color="red" > --><!----------------------------------------------------------------------------- отделяющая линия--->
      </body><!-------------------------------------------------------------------------------------------------------- начало менюшки--->
      <style > 
       @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);
@@ -337,7 +350,7 @@ button:before {
        </ul>
       </nav> 
   <h0 class="font_0">
-    <span style="color:#ff4040;">
+    <span style="color:white;">
       <span style="font-family:playfair display,serif;"><!---------------------------------------------------------- новости-->
   
       Новини
@@ -457,7 +470,7 @@ COVID-19. У цих умовах наша команда вирішила доп
 </html> 
 <style>
   * {box-sizing: border-box;}
-body {background: #ffffff;
+body {
 }
 .decor {
   position: relative;
@@ -497,9 +510,9 @@ body {background: #ffffff;
 }
 blockquote {
 margin: 0;
-background:   #FB6652  ;
-border-top: 5px solid red;
-border-bottom: 5px solid red;
+background:   #FA8072  ;
+border-top: 5px solid #FA8072;
+border-bottom: 5px solid #FA8072;
 color: white;
 padding: 30px 30px 30px 90px;
 position: relative;
@@ -513,7 +526,7 @@ position: absolute;
 left: 20px;
 top: 20px;
 color: white;
-background: #FB6652;
+background: #FA8072;
 width: 50px;
 height: 50px;
 border-radius: 50%;
@@ -610,7 +623,7 @@ font-style: normal;
     display: block; /* Убираем небольшой отступ снизу */
    }
    .scale img:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(0.9); /* Увеличиваем масштаб */
 
    }
 </style>
@@ -622,7 +635,7 @@ font-style: normal;
  <div  style="height: 1px; min-height: 1px; " class="side-image">
   <div class="scale">
   <a  href=" https://donor.ua/">
-              <img  width="313" height="313"  src="_16734-174.jpg"></a><!----------------------------------- о донации крови -->
+              <img    width="200" height="156" src="BB2.png"></a><!----------------------------------- о донации крови -->
             </div>
           </div>
           
@@ -697,13 +710,12 @@ a{
 </body>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-  <title>Фиксированный подвал</title>
   <style type="text/css">
    #footer {
     position: relative; 
     left: 0; bottom: 0; /* Левый нижний угол */
     padding: 120px; /* Поля вокруг текста */
-    background: #FFDAB9 url(7890.jpg); /* Цвет фона */
+    /*background: #FFDAB9 url(7890.jpg);*/ /* Цвет фона */
     color: #fff; /* Цвет текста */
     width: 100%; /* Ширина слоя */
     overflow: hidden;
@@ -725,169 +737,11 @@ a{
 </div>
 </span>
   </div>
+</body>
+</div>
+</body>
+</bodyclass>
+</head>
  </body>
 </html>
-<!-- <style >
-  body {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  height: 100vh;
-  background: #fff;
-  font: 1em verdana, sans-serif;
-}
-
-[id='toggle-heart'] {
-  position: absolute;
-  left: -100vw;
-}
-[id='toggle-heart']:checked + label {
-  color: #e2264d;
-  -webkit-filter: none;
-          filter: none;
-  will-change: font-size;
-  -webkit-animation: heart 1s cubic-bezier(0.17, 0.89, 0.32, 1.49);
-          animation: heart 1s cubic-bezier(0.17, 0.89, 0.32, 1.49);
-}
-[id='toggle-heart']:checked + label:before, [id='toggle-heart']:checked + label:after {
-  -webkit-animation: inherit;
-          animation: inherit;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-}
-[id='toggle-heart']:checked + label:before {
-  will-change: transform, border-width, border-color;
-  -webkit-animation-name: bubble;
-          animation-name: bubble;
-}
-[id='toggle-heart']:checked + label:after {
-  will-change: opacity, box-shadow;
-  -webkit-animation-name: sparkles;
-          animation-name: sparkles;
-}
-[id='toggle-heart']:focus + label {
-  text-shadow: 0 0 3px white,  0 1px 1px white, 0 -1px 1px white,  1px 0 1px white, -1px 0 1px white;
-}
-
-[for='toggle-heart'] {
-  align-self: center;
-  position: relative;
-  color: #888;
-  font-size: 2em;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: pointer;
-}
-[for='toggle-heart']:before, [for='toggle-heart']:after {
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  content: '';
-}
-[for='toggle-heart']:before {
-  box-sizing: border-box;
-  margin: -2.25rem;
-  border: solid 2.25rem #e2264d;
-  width: 4.5rem;
-  height: 4.5rem;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-}
-[for='toggle-heart']:after {
-  margin: -0.1875rem;
-  width: 0.375rem;
-  height: 0.375rem;
-  box-shadow: 0.32476rem -3rem 0 -0.1875rem #ff8080, -0.32476rem -2.625rem 0 -0.1875rem #ffed80, 2.54798rem -1.61656rem 0 -0.1875rem #ffed80, 1.84982rem -1.89057rem 0 -0.1875rem #a4ff80, 2.85252rem 0.98418rem 0 -0.1875rem #a4ff80, 2.63145rem 0.2675rem 0 -0.1875rem #80ffc8, 1.00905rem 2.84381rem 0 -0.1875rem #80ffc8, 1.43154rem 2.22414rem 0 -0.1875rem #80c8ff, -1.59425rem 2.562rem 0 -0.1875rem #80c8ff, -0.84635rem 2.50595rem 0 -0.1875rem #a480ff, -2.99705rem 0.35095rem 0 -0.1875rem #a480ff, -2.48692rem 0.90073rem 0 -0.1875rem #ff80ed, -2.14301rem -2.12438rem 0 -0.1875rem #ff80ed, -2.25479rem -1.38275rem 0 -0.1875rem #ff8080;
-}
-
-@-webkit-keyframes heart {
-  0%, 17.5% {
-    font-size: 0;
-  }
-}
-
-@keyframes heart {
-  0%, 17.5% {
-    font-size: 0;
-  }
-}
-@-webkit-keyframes bubble {
-  15% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    border-color: #cc8ef5;
-    border-width: 2.25rem;
-  }
-  30%, 100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    border-color: #cc8ef5;
-    border-width: 0;
-  }
-}
-@keyframes bubble {
-  15% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    border-color: #cc8ef5;
-    border-width: 2.25rem;
-  }
-  30%, 100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    border-color: #cc8ef5;
-    border-width: 0;
-  }
-}
-@-webkit-keyframes sparkles {
-  0%, 20% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-    box-shadow: 0.32476rem -2.4375rem 0 0rem #ff8080, -0.32476rem -2.0625rem 0 0rem #ffed80, 2.1082rem -1.26585rem 0 0rem #ffed80, 1.41004rem -1.53985rem 0 0rem #a4ff80, 2.30412rem 0.85901rem 0 0rem #a4ff80, 2.08305rem 0.14233rem 0 0rem #80ffc8, 0.76499rem 2.33702rem 0 0rem #80ffc8, 1.18748rem 1.71734rem 0 0rem #80c8ff, -1.35019rem 2.0552rem 0 0rem #80c8ff, -0.60229rem 1.99916rem 0 0rem #a480ff, -2.44865rem 0.22578rem 0 0rem #a480ff, -1.93852rem 0.77557rem 0 0rem #ff80ed, -1.70323rem -1.77366rem 0 0rem #ff80ed, -1.81501rem -1.03204rem 0 0rem #ff8080;
-  }
-}
-@keyframes sparkles {
-  0%, 20% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 1;
-    box-shadow: 0.32476rem -2.4375rem 0 0rem #ff8080, -0.32476rem -2.0625rem 0 0rem #ffed80, 2.1082rem -1.26585rem 0 0rem #ffed80, 1.41004rem -1.53985rem 0 0rem #a4ff80, 2.30412rem 0.85901rem 0 0rem #a4ff80, 2.08305rem 0.14233rem 0 0rem #80ffc8, 0.76499rem 2.33702rem 0 0rem #80ffc8, 1.18748rem 1.71734rem 0 0rem #80c8ff, -1.35019rem 2.0552rem 0 0rem #80c8ff, -0.60229rem 1.99916rem 0 0rem #a480ff, -2.44865rem 0.22578rem 0 0rem #a480ff, -1.93852rem 0.77557rem 0 0rem #ff80ed, -1.70323rem -1.77366rem 0 0rem #ff80ed, -1.81501rem -1.03204rem 0 0rem #ff8080;
-  }
-}
-</style>
-<input id="toggle-heart" type="checkbox"/>
-<label for="toggle-heart" aria-label="like">❤</label> ---анимация с сердечком-->
-    <!-- 
-    Офіційний канал 
-Відділу соціально-психологічної роботи - Студентська соціальна служба Департаменту навчально-виховної роботи КПІ ім. Ігоря Сікорського
-
-Зворотній зв'язок: @asksss_bot
-Запис до психолога: psybooking.simplybook.it/v2/
-Discuss: @sss_discuss
-https://psybooking.simplybook.it/v2/
- <body> 
-  <form>
-   <p>
-    <button>
-    Кнопка с текстом //просто кнопка с текстом,лол
-   </button>
-  </p>
-  </form>
-  </body>  -->
-    <!-- <body> 
-  <form>
-   <p><input value="Введите текст"></p> //это для отправки на почту в будующем на страннице новостей
-   <p><input type="submit" value="Отправить">
-      <input type="reset" value="Очистить"></p>
-  </form>
- </body>-->
     
