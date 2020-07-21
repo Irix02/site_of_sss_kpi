@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <style>
 	html{
-    background-image: url(done2.jpg), url(done2.jpg);
+    background-image: url(background.jpg), url(background.jpg);
     background-repeat: repeat-y, repeat-y;
     background-position: left, right;
     background-attachment: fixed, fixed;
