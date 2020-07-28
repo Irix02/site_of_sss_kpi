@@ -61,18 +61,6 @@
   		
 <head>
    <style>
-   	/*div {
-   		background-attachment: fixed;
-   		background: url(photo_2020-07-06_16-39-58_photos_v2_x4.jpg);
-   	}
-   	body{
-   		background-attachment: fixed;
-   		background: url(photo_2020-07-06_16-39-58_photos_v2_x4.jpg);
-   	}
-   	head{
-   		background-attachment: fixed;
-   		background: url(photo_2020-07-06_16-39-58_photos_v2_x4.jpg);
-   	}*/
    .fig {
     text-align: center; 
            }
@@ -144,7 +132,7 @@
     </h5>
 </div>
 </head>
-    <!-- <hr color="red" > --><!----------------------------------------------------------------------------- отделяющая линия--->
+    
      </body><!-------------------------------------------------------------------------------------------------------- начало менюшки--->
      <style > 
       @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption);
@@ -165,19 +153,8 @@
   display: block;
   transition: .3s linear;
             }
-      .top-menu > li{
-  margin: 0 60px;
-  position: relative;
-  background: #FA8072;    
-  box-shadow: 
-    inset 1px 0 0 rgba(255,255,255,.1), 
-    inset -1px 0 0 rgba(255,255,255,.1), 
-    inset 150px 0 150px -150px rgba(255,255,255,.12), 
-    inset -150px 0 150px -150px rgba(255,255,255,.12);
-    }
-    .top-menu > li > a.active,
+    
     .submenu a:hover {color: red ;}
-    .top-menu .fa,
     .submenu .fa {
       content: "";
   position: absolute;
@@ -186,15 +163,6 @@
   width: 100%;
   height: 3px;
     }
-.top-menu:before,
-.top-menu:after {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  width: 100%;
-  height: 3px;
-}
 .submenu {
  position: absolute;
   z-index: 5;
@@ -240,18 +208,6 @@ nav li:hover > .submenu {
   padding: 0;
   margin: 0;
   text-align: center;
-}
-.menu-main:before, 
-.menu-main:after {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 0;
-  top: 8px;
-  border-top: 18px solid #FA8072;
-  border-bottom: 18px solid #FA8072;
-  transform: rotate(360deg);
-  z-index: -1;
 }
 .menu-main:before {
   left: -30px;
@@ -681,18 +637,21 @@ font-style: normal;
 }
 
 .draglia {
-   display:inline-block;
-   width:72px;
-   height:64px;
+   /*display:inline-block;
+   width:64px;
+   height:60px;
    overflow:hidden;
    border:1px solid pink;
    line-height:60px;
    text-decoration:none;
    text-shadow:0 -1px 0 rgba(0,0,0,0.5);
-   border-radius:60px;
+   border-radius: 100px; 
+    box-shadow: 0 0 5px #BC8F8F;
    background: #FB6652 ;
    text-align:center;
-}
+     align-items: center;
+    justify-content: center;*/
+   }
 .draglia:hover,
 .draglia:focus,
 .draglia:active {
@@ -711,15 +670,20 @@ a{
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
   <style type="text/css">
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
    #footer {
     position: relative; 
     left: 0; bottom: 0; /* Левый нижний угол */
     padding: 120px; /* Поля вокруг текста */
-    /*background: #FFDAB9 url(7890.jpg);*/ /* Цвет фона */
+    
     color: #fff; /* Цвет текста */
     width: 100%; /* Ширина слоя */
     overflow: hidden;
-    margin:  0; 
+    margin:  0;
+     text-align: center;
+     align-items: center;
+    justify-content: center;
+
    }
   </style>
  </head>
@@ -728,15 +692,17 @@ a{
   <div id="footer">
    <span>
 <ul class= "drag">
-   <li class= "dragli"><a color:white; class="draglia" href="https://telegra.ph/V%D1%96dd%D1%96l-soc%D1%96alno-psiholog%D1%96chnoi-roboti---Studentska-soc%D1%96alna-sluzhba-06-19" title="Про нас">Про нас</a></li>
-   <li class= "dragli"><a color:white; class="draglia" href="http://facebook.com/sss.kpi" class="facebook" title="Facebook">Facebook</a></li>
-   <li class= "dragli"><a color:white; class="draglia" href="https://t.me/sss_kpi" title="Telegram">Telegram</a></li>
-   <li class= "dragli"><a color:white; class="draglia"  href="https://www.youtube.com/channel/UCZKbCSXqkSHDKUC4S0u-6xg" title="YouTube">YouTube</a></li>
-   <li class= "dragli"><a color:white; class="draglia" href="https://instagram.com/SSS.NTUU.KPI" title="Instagram">Instagram</a></li>
+   <li class= "dragli" ><a color:white; class="draglia" href="https://telegra.ph/V%D1%96dd%D1%96l-soc%D1%96alno-psiholog%D1%96chnoi-roboti---Studentska-soc%D1%96alna-sluzhba-06-19"  title="Про нас" target="_blank" ><i class="fa fa-user-circle-o fa-4x" aria-hidden="true"></i></a></li>
+   <li class= "dragli"><a color:white; class="draglia" href="http://facebook.com/sss.kpi" class="facebook" title="Facebook"><i class="fa fa-facebook fa-4x"></i></a></li>
+   <li class= "dragli"><a color:white; class="draglia" href="https://t.me/sss_kpi" title="Telegram"><i class="fa fa-paper-plane fa-4x"></i></a></li>
+   <li class= "dragli"><a color:white; class="draglia"  href="https://www.youtube.com/channel/UCZKbCSXqkSHDKUC4S0u-6xg"  title="YouTube"><i class="fa fa-youtube-play fa-4x"></i></a></li>
+   <li class= "dragli"><a color:white; class="draglia" href="https://instagram.com/SSS.NTUU.KPI" title="Instagram"><i class="fa fa-instagram fa-4x"></i></a></li>
 </ul>
 </div>
 </span>
   </div>
+</div>
+</body>
 </body>
 </div>
 </body>
@@ -744,4 +710,3 @@ a{
 </head>
  </body>
 </html>
-    
